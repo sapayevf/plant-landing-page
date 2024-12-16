@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Bold.ttf);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway";
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.primary-button {
+  font-size: 16px;
+  padding: 20px 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #081800;
+  box-shadow: 8px 8px 0 0 #51c815;
+  border: none;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Bold.ttf);
+  font-weight: 700;
+}
+h1 {
+  font-size: 64px;
+  color: #418a1c;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 56px;
+  color: #101c02;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 32px;
+  color: #081800;
+  font-weight: 500;
+}
+
+.primary-text {
+  font-size: 18px;
+  color: #081800;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #101c02;
+  font-weight: 400;
+}
+
+.count-text {
+  font-size: 34px;
+  color: #418a1c;
+  font-weight: 700;
+}
+
+a {
+  font-size: 18px;
+  color: #101c02;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: #418a1c;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../../assets/fonts/Raleway-Bold.ttf);
+  font-weight: 700;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+header .header-nav {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.s1-bg {
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+
+.section-1 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.section-1 .s1__title {
+  position: absolute;
+  width: 600px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-40%);
+}
+.section-1 .s1__title h2 {
+  margin-bottom: 30px;
+}
+.section-1 .s1__title .asd {
+  padding-left: 100px;
+  margin-bottom: 35px;
+}
+.section-1 .s1__title button {
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+.section-1 .s1__title .s1__title-txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.section-1 .s1__title .s1__title-txt .count-text {
+  margin-bottom: 10px;
+}
+
+.section-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -215px; /* Chap tomonga 215px (1530px - 1100px) / 2 */
+  width: 1315px; /* Tashqaridan tortib */
+  height: 100%;
+  background-image: url("../../assets/images/s1-img.png"); /* Rasm manzili */
+  background-size: contain; /* Rasmni o'lchamga moslashtirish */
+  background-repeat: no-repeat; /* Rasmni qaytarilishiga yo'l qo'ymaslik */
+  background-position: left; /* Rasmni chap tomonda saqlash */
+  z-index: -1; /* Rasmni orqa fon qilib joylashtirish */
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,61 @@
+@import "./add/aniq";
+@import "./add/fonts";
+@import "./add/footer";
+@import "./add/typography";
+@import "./add/header";
+
+.s1-bg {
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+
+.section-1 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  .s1__title {
+    position: absolute;
+    width: 600px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-40%);
+    h2 {
+      margin-bottom: 30px;
+    }
+    .asd {
+      padding-left: 100px;
+      margin-bottom: 35px;
+    }
+    button {
+      margin-left: 100px;
+      margin-bottom: 40px;
+    }
+    .s1__title-txt {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 100px;
+      .count-text {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.section-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -215px; /* Chap tomonga 215px (1530px - 1100px) / 2 */
+  width: calc((1530px - 1100px) / 2 + 1100px); /* Tashqaridan tortib */
+  height: 100%;
+  background-image: url("../../assets/images/s1-img.png"); /* Rasm manzili */
+  background-size: contain; /* Rasmni o'lchamga moslashtirish */
+  background-repeat: no-repeat; /* Rasmni qaytarilishiga yo'l qo'ymaslik */
+  background-position: left; /* Rasmni chap tomonda saqlash */
+  z-index: -1; /* Rasmni orqa fon qilib joylashtirish */
+}

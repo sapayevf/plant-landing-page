@@ -1,0 +1,45 @@
+h1 {
+  font-size: 64px;
+  color: #418a1c;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 56px;
+  color: #101c02;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 32px;
+  color: #081800;
+  font-weight: 500;
+}
+
+.primary-text {
+  font-size: 18px;
+  color: #081800;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #101c02;
+  font-weight: 400;
+}
+
+.count-text {
+  font-size: 34px;
+  color: #418a1c;
+  font-weight: 700;
+}
+
+a {
+  font-size: 18px;
+  color: #101c02;
+  transition: all 0.3s ease;
+  &:hover {
+    color: #418a1c;
+  }
+}
