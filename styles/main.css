@@ -91,7 +91,7 @@ h4 {
 
 .primary-text {
   font-size: 18px;
-  color: #081800;
+  color: #101c02;
   line-height: 24px;
   font-weight: 500;
 }
@@ -162,6 +162,7 @@ header nav {
   position: relative;
   width: 100vw;
   height: 100vh;
+  margin-bottom: 120px;
 }
 .section-1 .s1__title {
   position: absolute;
@@ -203,4 +204,117 @@ header nav {
   background-repeat: no-repeat; /* Rasmni qaytarilishiga yo'l qo'ymaslik */
   background-position: left; /* Rasmni chap tomonda saqlash */
   z-index: -1; /* Rasmni orqa fon qilib joylashtirish */
+}
+
+.section-2 {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.section-2 .s2__item {
+  width: 55%;
+}
+.section-2 .s2__item h2 {
+  margin-bottom: 50px;
+}
+.section-2 .s2__item img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.section-2 .s2__item p {
+  margin-bottom: 30px;
+}
+.section-2 .zxc {
+  width: 40%;
+}
+
+.section-3 {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.section-3 .s3__item {
+  width: 48%;
+}
+.section-3 .s3__item .h2 {
+  margin-bottom: 30px;
+}
+.section-3 .s3__item img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.section-3 .s3__item .checkboxs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-3 .s3__item .checkboxs .checkboxs-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-3 .s3__item .checkboxs .checkboxs-item input {
+  width: 35px;
+  height: 35px;
+}
+.section-3 .s3__item .checkboxs .checkboxs-item input[type=checkbox]:checked {
+  outline: 2px solid lawngreen;
+  accent-color: lawngreen;
+}
+
+.section-4 {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.section-4 .s4__item {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-4 .s4__item .s4__card {
+  width: 100%;
+  padding: 30px 40px;
+  background-color: #f7ffec;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.section-4 .s4__item .s4__card img {
+  width: 45%;
+}
+.section-4 .s4__item .s4__card h4 {
+  margin-bottom: 10px;
+}
+.section-4 .s4__item .s4__card .card-text {
+  margin-bottom: 10px;
+}
+
+footer {
+  position: relative;
+  background-color: #f7ffec;
+  padding: 100px 0;
+}
+footer .footer-img {
+  width: 500px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .container .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+footer .container img {
+  width: 200px;
 }/*# sourceMappingURL=main.css.map */
