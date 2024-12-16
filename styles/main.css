@@ -22,11 +22,27 @@
 
 body {
   font-family: "Raleway";
+  overflow-x: hidden;
 }
 
 .container {
   max-width: 1100px;
   margin: 0 auto;
+}
+@media (max-width: 1111px) {
+  .container {
+    max-width: 900px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 460px;
+  }
 }
 
 .primary-button {
@@ -148,6 +164,11 @@ header nav {
   align-items: center;
   gap: 45px;
 }
+@media (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+}
 
 .s1-bg {
   position: absolute;
@@ -156,6 +177,12 @@ header nav {
   left: 0;
   top: 0;
   z-index: -2;
+}
+@media (max-width: 500px) {
+  .s1-bg {
+    width: 100%;
+    height: 106vh;
+  }
 }
 
 .section-1 {
@@ -171,6 +198,11 @@ header nav {
   top: 50%;
   transform: translateY(-40%);
 }
+@media (max-width: 500px) {
+  .section-1 .s1__title {
+    width: 100%;
+  }
+}
 .section-1 .s1__title h2 {
   margin-bottom: 30px;
 }
@@ -178,15 +210,30 @@ header nav {
   padding-left: 100px;
   margin-bottom: 35px;
 }
+@media (max-width: 768px) {
+  .section-1 .s1__title .asd {
+    padding-left: 0;
+  }
+}
 .section-1 .s1__title button {
   margin-left: 100px;
   margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .section-1 .s1__title button {
+    margin-left: 0;
+  }
 }
 .section-1 .s1__title .s1__title-txt {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-left: 100px;
+}
+@media (max-width: 768px) {
+  .section-1 .s1__title .s1__title-txt {
+    margin-left: 0;
+  }
 }
 .section-1 .s1__title .s1__title-txt .count-text {
   margin-bottom: 10px;
@@ -205,6 +252,11 @@ header nav {
   background-position: left; /* Rasmni chap tomonda saqlash */
   z-index: -1; /* Rasmni orqa fon qilib joylashtirish */
 }
+@media (max-width: 768px) {
+  .section-1::before {
+    background-image: none;
+  }
+}
 
 .section-2 {
   display: flex;
@@ -212,8 +264,18 @@ header nav {
   justify-content: space-between;
   margin-bottom: 120px;
 }
+@media (max-width: 768px) {
+  .section-2 {
+    flex-direction: column;
+  }
+}
 .section-2 .s2__item {
   width: 55%;
+}
+@media (max-width: 768px) {
+  .section-2 .s2__item {
+    width: 100%;
+  }
 }
 .section-2 .s2__item h2 {
   margin-bottom: 50px;
@@ -228,6 +290,11 @@ header nav {
 .section-2 .zxc {
   width: 40%;
 }
+@media (max-width: 768px) {
+  .section-2 .zxc {
+    width: 100%;
+  }
+}
 
 .section-3 {
   display: flex;
@@ -235,8 +302,19 @@ header nav {
   justify-content: space-between;
   margin-bottom: 120px;
 }
+@media (max-width: 768px) {
+  .section-3 {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
 .section-3 .s3__item {
   width: 48%;
+}
+@media (max-width: 768px) {
+  .section-3 .s3__item {
+    width: 100%;
+  }
 }
 .section-3 .s3__item .h2 {
   margin-bottom: 30px;
@@ -270,11 +348,22 @@ header nav {
   justify-content: space-between;
   margin-bottom: 120px;
 }
+@media (max-width: 768px) {
+  .section-4 {
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+}
 .section-4 .s4__item {
   width: 48%;
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+@media (max-width: 768px) {
+  .section-4 .s4__item {
+    width: 100%;
+  }
 }
 .section-4 .s4__item .s4__card {
   width: 100%;
@@ -309,6 +398,12 @@ footer .container {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  footer .container {
+    flex-direction: column;
+    gap: 60px;
+  }
 }
 footer .container .footer-links {
   display: flex;

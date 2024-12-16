@@ -14,5 +14,8 @@ header {
     display: flex;
     align-items: center;
     gap: 45px;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 }
